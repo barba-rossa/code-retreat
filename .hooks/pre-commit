@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Pre-commit docs gate: ensure required learning artifacts exist.
+set -euo pipefail
+
+bash tools/check-docs.sh
+
